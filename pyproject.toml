@@ -1,0 +1,19 @@
+[project]
+name = "genmagic"
+description = "Images, video, speech, music and text from 450+ AI models (Veo, Kling, Seedance, Nano Banana, GPT Image, FLUX, Claude, GPT and more) with one GenMagic API key and one pay-as-you-go balance. Image-to-image and image-to-video included."
+version = "1.0.0"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+dependencies = ["requests>=2.28"]
+classifiers = ["Operating System :: OS Independent"]
+
+[project.urls]
+Repository = "https://github.com/yumaheymans/comfyui-genmagic"
+Documentation = "https://genmagic.co/developers#comfyui"
+"Bug Tracker" = "https://github.com/yumaheymans/comfyui-genmagic/issues"
+
+[tool.comfy]
+PublisherId = "genmagic"
+DisplayName = "GenMagic: 450+ AI models for image, video, audio and text"
+Icon = "https://genmagic.co/brand/icon.svg"
+includes = []
